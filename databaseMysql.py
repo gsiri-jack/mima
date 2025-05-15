@@ -14,7 +14,7 @@ import pymysql
 conn = pymysql.connect(
    host = "mysql-sample-pace-a6bb.f.aivencloud.com",
     user="avnadmin",
-    password="JACK@eva_009",
+    #password
     port=11632,
     database='sample'
 )
