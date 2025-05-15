@@ -1,0 +1,38 @@
+.loginHero {
+    position: absolute;
+    top: -100px;
+    transform: translateX(-45%);
+    border-radius: 100%;
+    background: #0f2027;
+    border: 2px solid forestgreen;
+    width: 900px;
+    color: red;
+    transition: all 1s ease;
+    min-height: 700px;
+  }
+  .loginHero div {
+    position: absolute;
+    right: 30%;
+    transition: all 1.5s ease;
+
+    top: 40%;
+    opacity: 1;
+    width: 150px;
+    /* text-align: center; */
+    text-wrap: wrap;
+  }
+  .loginHeroAlt {top: -100px;
+    position: absolute;
+    transition: all 1s ease;
+    transform: translateX(40%);
+    border-radius: 100%;
+    background: #0f2027;
+    width: 900px;
+    color: green;
+    min-height: 700px;
+  }
+  .loginHeroAlt div {
+   opacity: 0;
+    transition: all 1.5s ease;
+       
+  }

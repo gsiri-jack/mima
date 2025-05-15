@@ -1,0 +1,208 @@
+/* 
+CSS HEX
+--madder: #a51c30ff;
+--carrot-orange: #f9a03fff;
+--marian-blue: #2b4570ff;
+--french-gray: #bfc5d9ff;
+--baby-powder: #fbfef9ff;
+
+CSS HSL
+--madder: hsla(351, 71%, 38%, 1);
+--carrot-orange: hsla(31, 94%, 61%, 1);
+--marian-blue: hsla(217, 45%, 30%, 1);
+--french-gray: hsla(226, 25%, 80%, 1);
+--baby-powder: hsla(96, 71%, 99%, 1);
+
+SCSS HEX
+$madder: #a51c30ff;
+$carrot-orange: #f9a03fff;
+$marian-blue: #2b4570ff;
+$french-gray: #bfc5d9ff;
+$baby-powder: #fbfef9ff;
+
+SCSS HSL
+$madder: hsla(351, 71%, 38%, 1);
+$carrot-orange: hsla(31, 94%, 61%, 1);
+$marian-blue: hsla(217, 45%, 30%, 1);
+$french-gray: hsla(226, 25%, 80%, 1);
+$baby-powder: hsla(96, 71%, 99%, 1);
+
+SCSS RGB
+$madder: rgba(165, 28, 48, 1);
+$carrot-orange: rgba(249, 160, 63, 1);
+$marian-blue: rgba(43, 69, 112, 1);
+$french-gray: rgba(191, 197, 217, 1);
+$baby-powder: rgba(251, 254, 249, 1);
+
+
+*/
+.Outlet1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.home-window {
+  min-width: 100vw;
+}
+.content-container {
+  min-height: 80vh;
+}
+
+/* Homepage */
+
+.banner-img {
+  width: 100%;
+  object-fit: contain;
+}
+.banner-container {
+  /* borde: 1px solid saddlebrown; */
+  margin: 10px auto;
+}
+/* .homePage-products{
+
+} */
+
+/* Produtc card */
+.card {
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+  height: 300px;
+}
+.card-body {
+  padding: 0px;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+.card-text {
+  font-size: 12px;
+}
+.card-title {
+  min-height: 50px;
+  font-size: 20px;
+}
+.cartBtn {
+  font-size: 13px;
+}
+
+/* ProductPanel */
+.window {
+  /* position: absolute; */
+  flex-wrap: wrap;
+  right: 2px;
+  display: flex;
+  /* borde: 1px solid red; */
+  max-width: 70vw;
+}
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+/* HomePane.l */
+.section {
+  /* borde: 1px solid rebeccapurple; */
+  min-height: 50vh;
+}
+.section-content {
+  font-size: 14px;
+  max-width: 50%;
+  text-wrap: wrap;
+}
+.about-us:nth-child(1) {
+  /* borde: 3px solid firebrick; */
+  color: #e10e0e;
+  padding: 10px;
+}
+
+.about-us:nth-child(2) {
+  /* borde: 3px solid sandybrown; */
+
+  color: #555;
+  padding: 10px;
+}
+
+.about-us:nth-child(3) {
+  color: #777;
+  padding: 10px;
+}
+
+.sample {
+  position: absolute;
+  right: 1px;
+}
+/* navbar */
+.navbar{
+  background-color: #fbfef9ff;
+  color: #2b4570ff;
+}
+/* category navbar */
+.category-navbar {
+  background-color: #fbfef9ff;
+}
+.category-navbar ul {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  color: #2b4570ff;
+  justify-content: space-between;
+}
+/* min components */
+/* ScrollDivs */
+.scroll-horizontal {
+  overflow: hidden; /* Hide overflow to hide scrollbar */
+  width: 100%; /* Full width of parent container */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inner-div {
+  display: flex;
+}
+
+.child-div {
+  flex: 0 0 auto;
+  width: 200px; /* Adjust width of child divs */
+  height: 100px; /* Adjust height of child divs */
+  /* borde: 1px solid #ccc; */
+  margin-right: 10px; /* Adjust spacing between child divs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child-div img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+/* error-page */
+.error-page {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  /* border: 1px solid rebeccapurple; */
+}
+.error-page img {
+  width: 45%;
+  height: 70%;
+  object-fit: contain;
+}
+.error-page div {
+  margin: auto;
+}
+.error-page h4 {
+  font-family: "Courier New", Courier, monospace;
+}
+.error-page h2 span {
+  color: #e10e0e;
+}
+
+/* login page */

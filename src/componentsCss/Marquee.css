@@ -1,0 +1,26 @@
+.vertical-marquee {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .inner {
+   
+    position: absolute;
+    bottom: 100%;
+    bottom: 0;
+    animation: marquee 5s linear infinite;
+  }
+  .inner div{
+    min-height: 33vh;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  

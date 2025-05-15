@@ -1,0 +1,263 @@
+.AdBar{
+   display: flex;
+  direction: column; 
+  width: 20vw;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  /* border: 1px solid red; */
+  background-color: #2e4053a6;
+  max-height: 100vh;
+  /* overflow: hidden; */
+}
+.rfm-marquee-container {
+  position: sticky;
+  left: -29rem; 
+ height: 25vw;
+  border: 1px solid rgb(63, 178, 34);
+  }
+/* .marqueeChild{
+  width: 30%;
+  height: 100%;
+} */
+.AdBar div {
+  min-width: 100vh;
+  min-height: 20vh;
+  
+  border: 1px solid teal;
+}
+/* .rfm-marquee-container {
+  --width: 20vh;
+  --width: 100vh;
+  height: 100vh;
+  } */
+  .item{
+    margin-top: 1rem;
+    width: 30vh;
+    border: 1px solid yellow;
+  }
+.rfm-child{
+/* border: 1px solid darkred; */
+min-height: 100%;
+margin-right: 5rem;
+}
+.BgBar{
+
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  /* border: 1px solid red; */
+  /* background-color: #2e4053a6; */
+}
+.loginButton {
+  width: 16rem;
+  height: 2rem;
+  margin: 3rem 0.5rem;
+  border-radius: 0px;
+  background-color: #2e4053;
+  border: #eaf2f8;
+  color: #eaf2f8;
+}
+.login_page {
+  /* border: 6px solid darkred; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-cont {
+  position: absolute;
+  height: 80%;
+  max-height: 450px;
+  margin: auto ;
+  display: flex;
+  background: #eaf2f8;
+  width: 40rem;
+  overflow: hidden;
+  align-items: center;
+}
+.loginHero {
+  position: absolute;
+  top: -6rem;
+  transform: translateX(-60%);
+  border-radius: 100%;
+  background: #2e4053;
+  
+  width: 40rem;
+  color: #eaf2f8;
+  transition: all 400ms linear;
+  min-height: 40rem;
+}
+.regSlide {
+  position: absolute;
+  height: 35%;
+  left: 0.7rem;
+  width: 15rem;
+  top: 28%;
+  color: #eaf2f8;
+  /* text-align: center; */
+  
+}
+.loginHeroAlt {
+  top: -6rem;
+  position: absolute;
+  transition: all 400ms linear;
+  transform: translateX(65%);
+  border-radius: 100%;
+  background: #2e4053;
+  width: 40rem;
+  min-height: 40rem;
+}
+
+.login-form div p {
+  font-size: 14px;
+}
+.form-container {
+  position: absolute;
+  right: 0rem;
+  /* border: 1px solid red; */
+  height: 95%;
+  width: 25rem;
+  margin: 10px;
+}
+.form-container .emailCont > input:nth-child(2),
+.form-container .passwordCont > input:nth-child(2) {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  margin-left: 0.3rem;
+}
+.form-container .emailCont > input :active,
+.form-container .emailCont > input:focus,
+.form-container .passwordCont > input :active,
+.form-container .passwordCont > input:focus
+.loginButton:active,.loginButton:focus
+{
+  border: none;
+  outline: none;
+}
+.emailCont,
+.passwordCont {
+  padding-left: 5px;
+  width: 16rem;
+  border-bottom: 1px solid #2e4053;
+  margin: auto;
+  margin-top: 3rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.formDet {
+  height: 20rem;
+  width: 17rem;
+  margin: auto;
+  /* border: 1px solid #0f2027; */
+}
+.formDet > a {
+  display: block;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  color: #2e4053;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.formDet > a:nth-child(3):hover {
+  color: var(--bs-link-hover-color-rgb);
+}
+.registerBtn{
+
+  background: #eaf2f8;
+  color: #2e4053;
+  border-radius: 0%;
+  height: 2rem;
+  padding: 0.1rem 0.8rem;
+}
+.registerBtn:hover{
+  border: 1px solid #eaf2f8;
+}
+.registerIcon{
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid #eaf2f87b;
+  border-radius: 100%;
+  margin: 0.6rem;
+}
+.visbile{
+  opacity: 1;
+  display: block;
+  transition: all 800ms linear;
+}
+.invisible{
+  display: none;
+  transition: all 400ms linear;
+
+}
+.loginStarter{
+  position: absolute;
+  height: 35%;
+  right: 0rem;
+  /* border: 1px solid red; */
+  width: 13rem;
+  top: 29%;
+ color: #eaf2f8;
+  
+}
+.regForm{
+  /* border: 1px solid red; */
+  height: 25rem;
+  width: 30rem;
+}
+.regName input, .regEmail input, .regPassword input{
+  border: none;
+  margin-left: 0.7rem;
+  border-bottom: 1px solid #2e4053;
+  outline: none;
+  background-color: transparent;
+  padding-left: 0.5rem;
+  width: 13rem;
+  color: #2e4053;
+ 
+
+}
+.regPassword,.regName,.regEmail{
+  margin-top: 2.5rem;
+}
+.regName input{
+  width: 6rem;
+}
+.regName input::placeholder,
+.regEmail input::placeholder,
+.regPassword input::placeholder {
+opacity: 0.8;
+color: #2e4053;
+}
+.regName{
+  display: flex;
+  align-items: center;
+}
+.regDet{
+  width: 20rem;
+  height: 22rem;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.regDet .regBtn{
+  width: 13.5rem;
+  height: 2rem;
+  margin: 3rem 0.5rem;
+  border-radius: 0px;
+  background-color: #2e4053;
+  border: #eaf2f8;
+  color: #eaf2f8;
+
+}
+.regDet .regBtn:hover,
+.regDet .regBtn:active,
+.regDet .regBtn:focus {
+  border: 1px solid #2e4053;
+  background: #eaf2f8;
+  color: #2e4053;
+}

@@ -1,0 +1,53 @@
+.NavItem .container-fluid{
+  background-color: #2E4053;
+  color: aliceblue;
+}
+.NavItem {padding-top: 0px;}
+
+.NavItem .navbar-brand{
+    color: #F7F7F7;
+    font-family: "Italiana", sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 2rem;
+}
+.NavItem .form-control:focus,
+.NavItem .form-control:active {
+  /* border-bottom: 1px solid green; */
+  outline: none;
+  box-shadow: none; /* Optionally remove box-shadow if needed */
+}
+.NavItem .searchBar {
+  /* border: 5px solid none; */
+  border: none;
+  border-radius: 0px;
+  background-color: #F7F7F7;
+}
+.NavItem .searchBtn {
+  border: none;
+}
+.searchBtn{
+    background-color: #F7F7F7;
+    border-radius: 0%;
+}
+btn:focus,
+.searchBtn:active,
+btn:active, .searchBtn:hover,
+btn:hover {
+  /* border-bottom: 1px solid green; */
+  outline: none;
+  color:#2E4053;
+  background-color: #F7F7F7;
+  box-shadow: none; /* Optionally remove box-shadow if needed */
+}
+.NavItem form {
+}
+.hidden {
+  opacity: 0;
+}
+.visble {
+  opacity: 1;
+}
+.NavItem .navbar-nav .nav-link, .signUpBtn{
+    color:#F7F7F7;
+}
